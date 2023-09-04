@@ -1,0 +1,38 @@
+// カラー変数
+
+// 同じく系統の色相の変数命名方法の参考
+/*
+
+$c-〇〇〇-darker:標準カラーよりやや暗め;
+$c-〇〇〇-dark:標準カラーより少し暗め;
+$c-〇〇〇:標準カラー;
+$c-〇〇〇-lighter:標準カラーより少し薄め;
+$c-〇〇〇-light:標準カラーよりやや薄め;
+
+↓
+
+$c-blk-darker:#000;
+$c-blk-dark:#111;
+$c-blk:#333;
+$c-blk-lighter:#555;
+$c-blk-light:#777;
+
+*/
+
+
+// カラー
+
+$c-mask:rgba(0, 0, 0, 0.64);
+$c-white:#fff;
+$c-black:#333;
+$c-gry:#ccc;
+
+
+// メディアクエリ
+
+$sp: 767px;
+$pc: 768px;
+$wd: 1300px;
+
+$container_min_width:calc(1200px + 2rem);
+$container_min_width_small:calc(960px + 2rem);

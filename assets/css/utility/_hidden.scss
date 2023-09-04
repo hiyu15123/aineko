@@ -1,0 +1,12 @@
+//スマホ＆PC要素の表示・非表示
+@include pc {
+   .u-hidden-pc {
+      display: none !important;
+   }
+}
+
+@include sp {
+   .u-hidden-sp {
+      display: none !important;
+   }
+}

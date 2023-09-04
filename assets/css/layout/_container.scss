@@ -1,0 +1,37 @@
+/* =====================================
+ * コンテンツ幅
+ * ================================== */
+.l-container {
+   //通常幅
+   max-width: $container_min_width;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 1rem;
+   padding-right: 1rem;
+
+   //狭めの幅
+   &.-small{
+      max-width:$container_min_width_small;
+   }
+
+   //フル幅
+   &.-large{
+      max-width:100%;
+   }
+
+   @include sp {
+      max-width: 100%;
+      &,
+      &.-lg,
+      &.-sm{
+         padding-left: 1.25rem;
+         padding-right: 1.25rem;
+      }
+
+      & &{
+         padding-left: 0;
+         padding-right: 0;
+      }
+   }
+}
+
